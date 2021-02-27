@@ -1,0 +1,24 @@
+{
+  "name": "myapirest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "apiRestUser.js",
+  "scripts": {
+    "start": "node apiRestUser.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/josehscodenotch/myApiRest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/josehscodenotch/myApiRest/issues"
+  },
+  "homepage": "https://github.com/josehscodenotch/myApiRest#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1"
+  }
+}
