@@ -2,6 +2,8 @@ let express = require("express");
 let app = express();
 let cors = require('cors')
 let mysql = require("mysql");
+let port = process.env.PORT || 300;
+
 let connection = mysql.createConnection(
     {
         host: "angular.cymgr1wrxrnd.eu-west-3.rds.amazonaws.com", 
@@ -128,4 +130,4 @@ app.delete("/usuarios",
         }
         ); 
 
- app.listen(3000);
+ app.listen(port);
