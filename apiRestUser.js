@@ -4,9 +4,9 @@ let cors = require('cors')
 let mysql = require("mysql");
 let connection = mysql.createConnection(
     {
-        host: "34.65.243.64", 
-        user: "jose",
-        password: null,
+        host: "angular.cymgr1wrxrnd.eu-west-3.rds.amazonaws.com", 
+        user: "admin",
+        password: "c0d3n0tch",
         database: "angular"
     });    
 
