@@ -18,8 +18,8 @@ connection.connect(function(error){
     }else{
        console.log('Conexion correcta.');
     }
- });
-
+ }); 
+ 
 app.use(cors());
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
