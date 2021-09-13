@@ -19,6 +19,7 @@ connection.connect(function(error){
        console.log('Conexion correcta.');
     }
  }); 
+
  
 app.use(cors());
 app.use(express.urlencoded({ extended: false }));
